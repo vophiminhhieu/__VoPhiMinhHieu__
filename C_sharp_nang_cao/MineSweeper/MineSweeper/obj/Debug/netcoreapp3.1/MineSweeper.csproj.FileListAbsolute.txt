@@ -1,0 +1,13 @@
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\obj\Debug\netcoreapp3.1\MineSweeper.csprojAssemblyReference.cache
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\obj\Debug\netcoreapp3.1\MineSweeper.AssemblyInfoInputs.cache
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\obj\Debug\netcoreapp3.1\MineSweeper.AssemblyInfo.cs
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\obj\Debug\netcoreapp3.1\MineSweeper.csproj.CoreCompileInputs.cache
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\bin\Debug\netcoreapp3.1\MineSweeper.exe
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\bin\Debug\netcoreapp3.1\MineSweeper.deps.json
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\bin\Debug\netcoreapp3.1\MineSweeper.runtimeconfig.json
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\bin\Debug\netcoreapp3.1\MineSweeper.runtimeconfig.dev.json
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\bin\Debug\netcoreapp3.1\MineSweeper.dll
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\bin\Debug\netcoreapp3.1\MineSweeper.pdb
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\obj\Debug\netcoreapp3.1\MineSweeper.dll
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\obj\Debug\netcoreapp3.1\MineSweeper.pdb
+D:\work\GitHub\c_s_nangcao\MineSweeper\MineSweeper\obj\Debug\netcoreapp3.1\MineSweeper.genruntimeconfig.cache
