@@ -1,4 +1,4 @@
-﻿            Báo cáo về truyền tham trị và tham chiếu (c#)
+﻿             Báo cáo về truyền tham trị và tham chiếu (c#)
 
     Tham trị: Khi viết hàm với các biến được truyền tham trị thì hàm có thể nhận được giá trị của biến 
               truyền vào, có thể sử dụng giá trị đó, cũng có thể thay đổi giá trị đó, tuy nhiên sự
