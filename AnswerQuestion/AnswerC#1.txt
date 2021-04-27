@@ -1,0 +1,8 @@
+Câu 1:
+ 		Callback là chỉ việc gọi một hàm khác ở trong hàm. Hàm trong hàm.
+		Sử dụng: Khi chạy hàm tới lời gọi một hàm khác thì hàm khác đó sẽ
+			 được chạy, khi kết thúc thì hàm ban đầu tiếp tục chạy tiếp
+		Ví dụ  : Dùng trong đệ quy, một hàm có thể gọi tới chính nó..
+			 Dùng trong xử lý sự kiện, sự kiện bàn phím, con trỏ chuột
+			 ...
+	
