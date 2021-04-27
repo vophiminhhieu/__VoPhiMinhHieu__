@@ -1,0 +1,6 @@
+Câu 3: Một cấu hình đơn giản để giải thích sự khác biệt đó là tập hợp.
+	       Trường hợp null tương tự như tính chất rỗng ở tập hợp, Còn trường hợp
+	       "" chỉ như tập hợp có phần tử 0 thôi. Thật vậy, về bản chất thì "" 
+	       chính là "\0" (tức có thêm ký tự kết thúc chuỗi). Cách sử dụng đương nhiên
+	       cũng dẫn đến sự khác nhau. Chẳng hạn như gộp chuỗi với 1 chuỗi khác thì null 
+	       không dùng được..,
