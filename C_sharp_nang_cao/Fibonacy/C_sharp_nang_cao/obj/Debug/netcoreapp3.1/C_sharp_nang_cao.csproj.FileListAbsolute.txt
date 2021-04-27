@@ -1,0 +1,12 @@
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.exe
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.deps.json
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.runtimeconfig.json
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.runtimeconfig.dev.json
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.dll
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.pdb
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.AssemblyInfoInputs.cache
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.AssemblyInfo.cs
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.csproj.CoreCompileInputs.cache
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.dll
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.pdb
+D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.genruntimeconfig.cache
