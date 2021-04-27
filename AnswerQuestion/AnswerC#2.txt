@@ -1,0 +1,11 @@
+Câu 2: Nguyên lý hoạt động và cấu tạo
+				    : LinQ sẽ cung cấp nhiều providers khác nhau để
+			 	    có thể truy vấn đến những nguồn dữ liệu khác nhau
+	                            Truy vấn syntax.
+				    Khá tương tự với truy vấn MSSQL, MySQL:
+				From -> dùng cột/đối tượng nào
+				Where-> để viết điều kiện, lọc lấy dữ liệu cần
+				Select-> Lấy ra dữ liệu cần lấy từ dữ liệu(đã lọc nếu có)
+		Viết method đơn giản:
+		Gỉa sử ta đã có class Student với một số phương thức như điểm GPA
+		var list=Student.Where(f=>f.GPA>="8.6").OrderBy();
