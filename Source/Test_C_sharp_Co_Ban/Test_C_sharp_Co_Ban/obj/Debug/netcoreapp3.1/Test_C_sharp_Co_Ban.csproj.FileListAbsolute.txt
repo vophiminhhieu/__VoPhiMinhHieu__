@@ -1,0 +1,39 @@
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.exe
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.deps.json
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.runtimeconfig.json
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.runtimeconfig.dev.json
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.dll
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.pdb
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.csprojAssemblyReference.cache
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.AssemblyInfoInputs.cache
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.AssemblyInfo.cs
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.csproj.CoreCompileInputs.cache
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.dll
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.pdb
+D:\work\Souce Code\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.genruntimeconfig.cache
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.exe
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.deps.json
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.runtimeconfig.json
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.runtimeconfig.dev.json
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.dll
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.pdb
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.csprojAssemblyReference.cache
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.AssemblyInfoInputs.cache
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.AssemblyInfo.cs
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.csproj.CoreCompileInputs.cache
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.dll
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.pdb
+D:\work\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.genruntimeconfig.cache
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.exe
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.deps.json
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.runtimeconfig.json
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.runtimeconfig.dev.json
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.dll
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\bin\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.pdb
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.csprojAssemblyReference.cache
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.AssemblyInfoInputs.cache
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.AssemblyInfo.cs
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.csproj.CoreCompileInputs.cache
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.dll
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.pdb
+D:\work\GitHub\Source\Test_C_sharp_Co_Ban\Test_C_sharp_Co_Ban\obj\Debug\netcoreapp3.1\Test_C_sharp_Co_Ban.genruntimeconfig.cache
