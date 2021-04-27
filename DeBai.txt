@@ -1,0 +1,7 @@
+C# Nâng Cao
+
+	- Giải bài toán Fibonancci(Tối thiểu 3 cách).
+
+	- Tự viết 1 phương thức tương tự LinQ.
+
+	- Viết game dò mìn(MineSweeper). Dùng đệ quy cho thuật toán dò mìn sẽ được cộng điểm.
