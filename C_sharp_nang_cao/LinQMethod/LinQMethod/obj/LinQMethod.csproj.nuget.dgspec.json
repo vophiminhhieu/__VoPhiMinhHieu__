@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work\\GitHub\\c_s_nangcao\\LinQMethod\\LinQMethod\\LinQMethod.csproj": {}
+    "D:\\git\\C_sharp_nang_cao\\LinQMethod\\LinQMethod\\LinQMethod.csproj": {}
   },
   "projects": {
-    "D:\\work\\GitHub\\c_s_nangcao\\LinQMethod\\LinQMethod\\LinQMethod.csproj": {
+    "D:\\git\\C_sharp_nang_cao\\LinQMethod\\LinQMethod\\LinQMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work\\GitHub\\c_s_nangcao\\LinQMethod\\LinQMethod\\LinQMethod.csproj",
+        "projectUniqueName": "D:\\git\\C_sharp_nang_cao\\LinQMethod\\LinQMethod\\LinQMethod.csproj",
         "projectName": "LinQMethod",
-        "projectPath": "D:\\work\\GitHub\\c_s_nangcao\\LinQMethod\\LinQMethod\\LinQMethod.csproj",
+        "projectPath": "D:\\git\\C_sharp_nang_cao\\LinQMethod\\LinQMethod\\LinQMethod.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\work\\GitHub\\c_s_nangcao\\LinQMethod\\LinQMethod\\obj\\",
+        "outputPath": "D:\\git\\C_sharp_nang_cao\\LinQMethod\\LinQMethod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

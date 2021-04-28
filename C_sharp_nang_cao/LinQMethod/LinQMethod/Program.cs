@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections;
+using System.Collections.Generic;
 
 // Võ Phi Minh Hiếu
 // Mô phỏng phương thức của LinQ
@@ -11,37 +12,30 @@ namespace LinQMethod
 {
     class Program
     {
-        static ArrayList simulationLinQ(string[] words)
+        struct Dev
         {
-
-            ArrayList arlist = new ArrayList();
-            foreach (string word in words)
-            {
-                if (word.Length <= 5)
-                {
-                    arlist.Add(word);
-                }
-            }
-            return arlist;
+            public string Name;
+            public int Age;
         }
         static void Main(string[] args)
         {
-
-            string[] words = { "MaiCo", "group", "LINQ", "beautiful", "world" };
-            var shortWords = from word in words
-                             where word.Length <= 5
-                             select word;
-            var shortWords_ver2 = simulationLinQ(words);
-            Console.WriteLine("Cach LinQ: ");
-            foreach (string word in shortWords)
+            Console.WriteLine("Test select method: ");
+            IList<Dev> devList = new List<Dev>()
             {
-                Console.Write(word + "  ");
+                new Dev(){Name="Hieu",Age=5},
+                new Dev(){Name="Linh",Age=6},
+                new Dev(){Name="Dang",Age=7}
+            };
+            foreach (var name in devList.MySelect(Dev => Dev.Name))
+            {
+                Console.WriteLine(name);
             }
-            Console.WriteLine("");
-            Console.WriteLine("Cach Mo Phong: ");
-            foreach (string word in shortWords_ver2)
+            Console.WriteLine();
+            Console.WriteLine("Test Where method: ");
+            string[] students = { "Maico", "Group", "MinhHieu","O_O","^_^" };
+            foreach (var result in students.MyWhere(stu => stu.Length < 5))
             {
-                Console.Write(word + "   ");
+                Console.WriteLine(result);
             }
         }
     }

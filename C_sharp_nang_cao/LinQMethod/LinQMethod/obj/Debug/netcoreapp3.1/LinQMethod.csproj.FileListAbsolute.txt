@@ -11,3 +11,16 @@ D:\work\GitHub\c_s_nangcao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMet
 D:\work\GitHub\c_s_nangcao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.dll
 D:\work\GitHub\c_s_nangcao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.pdb
 D:\work\GitHub\c_s_nangcao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.genruntimeconfig.cache
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\bin\Debug\netcoreapp3.1\LinQMethod.exe
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\bin\Debug\netcoreapp3.1\LinQMethod.deps.json
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\bin\Debug\netcoreapp3.1\LinQMethod.runtimeconfig.json
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\bin\Debug\netcoreapp3.1\LinQMethod.runtimeconfig.dev.json
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\bin\Debug\netcoreapp3.1\LinQMethod.dll
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\bin\Debug\netcoreapp3.1\LinQMethod.pdb
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.csprojAssemblyReference.cache
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.AssemblyInfoInputs.cache
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.AssemblyInfo.cs
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.csproj.CoreCompileInputs.cache
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.dll
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.pdb
+D:\git\C_sharp_nang_cao\LinQMethod\LinQMethod\obj\Debug\netcoreapp3.1\LinQMethod.genruntimeconfig.cache
