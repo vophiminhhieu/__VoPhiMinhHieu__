@@ -118,43 +118,35 @@ namespace MineSweeper
             }
             if (count == size * size - countBoom)
             {
-                Console.SetCursorPosition(50, 10);
-                Console.Write("You winnnnnn");
                 return true;
-                
             }
             else
             {
-                Console.SetCursorPosition(50, 10);
-                Console.Write(count);
                 return false;
             }
         }
         public void print()
         {
+            Console.SetCursorPosition(0, 0);
+            Console.ForegroundColor = ConsoleColor.White;
             for (int i = 0; i < size; i++)
             {
                 for (int j = 0; j < size; j++)
                 {
                     Console.Write("# ");
                 }
-                Console.WriteLine("  - " + i);
+                Console.WriteLine();
             }
-            for (int i = 0; i <= size; i++)
+        }
+        public void drawFlag(int x,int y,bool[][]tmp)
+        {
+            if (tmp[y][x / 2] == true)
             {
-                Console.Write("  ");
+                Console.SetCursorPosition(x, y);
+                char c = (char)20;
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(c);
             }
-            Console.WriteLine("- x");
-            for (int i = 0; i <= size; i++)
-            {
-                Console.Write("| ");
-            }
-            Console.WriteLine();
-            for (int i = 0; i < size; i++)
-            {
-                Console.Write(i+" ");
-            }
-            Console.Write("y");
         }
         public bool check(int x,int y)
         {
