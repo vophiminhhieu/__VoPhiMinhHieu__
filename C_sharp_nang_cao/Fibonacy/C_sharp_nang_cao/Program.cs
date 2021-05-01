@@ -15,7 +15,15 @@ namespace C_sharp_nang_cao
             double cst2 = (1 - Math.Sqrt(5)) / 2;
             double cst3 = (5 + Math.Sqrt(5)) / 10;
             double cst4 = (5 - Math.Sqrt(5)) / 10;
-            return (int)(Math.Pow(cst1, index) * cst3 + Math.Pow(cst2, index) * cst4);
+            return round(Math.Pow(cst1, index) * cst3 + Math.Pow(cst2, index) * cst4);
+        }
+        static int round(double t)
+        {
+            if (t - (int)t >= 0.5)
+            {
+                return (int)t + 1;
+            }
+            return (int)t;
         }
         static int Fibonacy_2(int index)
         {

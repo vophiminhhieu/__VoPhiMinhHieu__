@@ -10,3 +10,16 @@ D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreap
 D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.dll
 D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.pdb
 D:\work\GitHub\c_s_nangcao\C_sharp_nang_cao\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.genruntimeconfig.cache
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.exe
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.deps.json
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.runtimeconfig.json
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.runtimeconfig.dev.json
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.dll
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\bin\Debug\netcoreapp3.1\C_sharp_nang_cao.pdb
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.csprojAssemblyReference.cache
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.AssemblyInfoInputs.cache
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.AssemblyInfo.cs
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.csproj.CoreCompileInputs.cache
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.dll
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.pdb
+D:\git\C_sharp_nang_cao\Fibonacy\C_sharp_nang_cao\obj\Debug\netcoreapp3.1\C_sharp_nang_cao.genruntimeconfig.cache

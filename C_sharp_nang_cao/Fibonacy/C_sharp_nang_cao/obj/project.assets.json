@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\GitHub\\c_s_nangcao\\C_sharp_nang_cao\\C_sharp_nang_cao\\C_sharp_nang_cao.csproj",
+      "projectUniqueName": "D:\\git\\C_sharp_nang_cao\\Fibonacy\\C_sharp_nang_cao\\C_sharp_nang_cao.csproj",
       "projectName": "C_sharp_nang_cao",
-      "projectPath": "D:\\work\\GitHub\\c_s_nangcao\\C_sharp_nang_cao\\C_sharp_nang_cao\\C_sharp_nang_cao.csproj",
+      "projectPath": "D:\\git\\C_sharp_nang_cao\\Fibonacy\\C_sharp_nang_cao\\C_sharp_nang_cao.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\GitHub\\c_s_nangcao\\C_sharp_nang_cao\\C_sharp_nang_cao\\obj\\",
+      "outputPath": "D:\\git\\C_sharp_nang_cao\\Fibonacy\\C_sharp_nang_cao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
