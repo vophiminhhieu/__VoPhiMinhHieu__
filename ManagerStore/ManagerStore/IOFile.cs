@@ -39,9 +39,11 @@ namespace ManagerStore
                 Console.SetCursorPosition(xPoint, yPoint+2);
                 Console.Write(" !!! Bạn nhập đường dẫn không hợp lệ. Nhập lại");
                 write(message, ref xPoint, ref yPoint);
+                return;
             }
             Console.SetCursorPosition(xPoint, yPoint + 1);
             Console.Write(" Đã lưu xuống file thành công !!!                 ");
+            Console.ReadLine();
             Console.SetCursorPosition(xPoint, yPoint + 2);
             Console.Write("                                                  ");
             yPoint++;
