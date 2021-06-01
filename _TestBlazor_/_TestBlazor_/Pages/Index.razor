@@ -1,0 +1,153 @@
+﻿@page "/"
+@page "/todoList"
+@using _TestBlazor_.Data;
+@using _TestBlazor_.Service;
+@inherits IndexBase
+
+<br />
+<div class="input-group mb-3">
+    <input @bind="currentTitle" type="text" class="form-control" placeholder="Input Title" @onkeyup="AddIfEnter" />
+    <input @bind="currentNote" type="text" class="form-control" placeholder="Input Note" @onkeyup="AddIfEnter" />
+    <div class="input-group-append">
+        <button @onclick="Add" class="btn btn-outline-success" type="button">Add</button>
+    </div>
+</div>
+<br />
+<ul class="list-group">
+    @foreach (var item in it)
+    {
+        <li>
+            <MudGrid>
+                <MudItem>
+                    <MudCheckBox @bind-Checked="item.done"></MudCheckBox>
+                </MudItem>
+                <MudItem>
+                    <MudText Align="Align.Center">
+                        <strike>
+                            @if (item.done == true)
+                                @item.title
+                        </strike>
+                        @if (item.done == false)
+                            @item.title
+                    </MudText>
+                </MudItem>
+                <MudItem>
+                    <MudText Align="Align.Center">
+                        <strike>
+                            @if (item.done == true)
+                                @item.note
+                        </strike>
+                        @if (item.done == false)
+                            @item.note
+                    </MudText>
+                </MudItem>
+                <MudItem>
+                    <MudIconButton Icon="@(item.important ? @Icons.Material.Sharp.Star:@Icons.Material.Sharp.StarBorder   )" @onclick="@((e)=>changeImportant(item))"></MudIconButton>
+                </MudItem>
+                <MudItem>
+                    <MudButton Color="Color.Secondary" @onclick="@((e)=>delete(item))">Delete</MudButton>
+                </MudItem>
+            </MudGrid>
+        </li>
+    }
+</ul>
+
+<MudButton Color="Color.Success" @onclick="Save"> Save </MudButton>
+
+@*<ul class="list-group">
+        @foreach (var item in itNotDone)
+        {
+            <li>
+                <MudGrid>
+                    <MudItem>
+                        <MudCheckBox @bind-Checked="item.done"></MudCheckBox>
+                    </MudItem>
+                    <MudItem>
+                        <MudText Align="Align.Center">@item.title</MudText>
+                    </MudItem>
+                    <MudItem>
+                        <MudText Align="Align.Center"> @item.note</MudText>
+                    </MudItem>
+                    <MudItem>
+                        <MudIconButton Icon="@(item.important ? @Icons.Material.Sharp.Star:@Icons.Material.Sharp.StarBorder   )" @onclick="@((e)=>changeImportant(item))"></MudIconButton>
+                    </MudItem>
+                    <MudItem>
+                        <MudButton Color="Color.Secondary">Delete</MudButton>
+                    </MudItem>
+                </MudGrid>
+            </li>
+        }
+    </ul>
+    <ul class="list-group">
+        @foreach (var item in itDone)
+        {
+            <li>
+                <MudGrid>
+                    <MudItem>
+                        <MudCheckBox @bind-Checked="item.done" ></MudCheckBox>
+                    </MudItem>
+                    <MudItem>
+                        <MudText Align="Align.Center">@item.title</MudText>
+                    </MudItem>
+                    <MudItem>
+                        <MudText Align="Align.Center"> @item.note</MudText>
+                    </MudItem>
+                    <MudItem>
+                        <MudIconButton Icon="@(item.important ? @Icons.Material.Sharp.Star:@Icons.Material.Sharp.StarBorder   )" @onclick="@((e)=>changeImportant(item))"></MudIconButton>
+                    </MudItem>
+                    <MudItem>
+                        <MudButton Color="Color.Secondary">Delete</MudButton>
+                    </MudItem>
+                </MudGrid>
+            </li>
+        }
+    </ul>*@@*
+    @code {
+        private System.Collections.Generic.IList<Item> it;
+        private List<Item> itDone = new List<Item>();
+        private List<Item> itNotDone = new List<Item>();
+        private string currentTitle { get; set; }
+        private string currentNote { get; set; }
+        public void Save()
+        {
+            Service.saveChange(it.ToList());
+        }
+        protected override void OnInitialized()
+        {
+            it = Service.displayItem();
+            foreach(var item in it)
+            {
+                if (item.done == false)
+                {
+                    itNotDone.Add(item);
+                }
+                else
+                {
+                    itDone.Add(item);
+                }
+            }
+        }
+        public void changeImportant(Item item)
+        {
+            item.important = !item.important;
+        }
+        private void Add()
+        {
+            if (string.IsNullOrWhiteSpace(currentTitle)==false&&string.IsNullOrWhiteSpace(currentNote)==false) {
+                it.Add(new Item() { title = currentTitle ,note = currentNote,done=false,important=false});
+                itNotDone.Add(new Item() { title = currentTitle, note = currentNote, done = false, important = false });
+            }
+        }
+        private void AddIfEnter(KeyboardEventArgs eventArgs)
+        {
+            if (eventArgs.Key == "Enter")
+            {
+                Add();
+            }
+        }
+        public void delete(Item item)
+        {
+            it.Remove(item);
+            Service.deleteChanges(item);
+        }
+    }*@

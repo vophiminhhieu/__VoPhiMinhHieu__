@@ -1,0 +1,23 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider />
+<MudDialogProvider FullWidth="true" MaxWidth="MaxWidth.ExtraSmall" />
+<MudSnackbarProvider />
+
+<MudLayout RightToLeft="false">
+    <MudAppBar Elevation="25" Color="Color.Success">
+        <MudBreadcrumbs Items="_items"></MudBreadcrumbs>
+    </MudAppBar>
+    <MudMainContent Class="px-6">
+
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+@code
+{ private List<BreadcrumbItem> _items = new List<BreadcrumbItem>
+        {
+        new BreadcrumbItem("Home", href: "", icon: Icons.Material.Filled.Home),
+        new BreadcrumbItem("Todo List", href: "/todoList", icon: Icons.Material.Filled.Create),
+        new BreadcrumbItem("Important", href: "/important", icon: Icons.Material.Sharp.StarBorder)
+    }; }

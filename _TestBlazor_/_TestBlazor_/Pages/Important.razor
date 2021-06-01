@@ -1,0 +1,47 @@
+﻿@page "/important"
+@using _TestBlazor_.Data;
+@using _TestBlazor_.Service;
+@inherits ImportantBase
+
+
+<br />
+<br />
+<ul class="list-group">
+    @foreach (var item in it)
+    {
+        <br />
+        <li>
+            <MudGrid>
+                <MudItem>
+                    <MudAppBarSpacer></MudAppBarSpacer>
+                </MudItem>
+                <MudItem>
+                    <MudIcon Icon="@(item.done ? Icons.Material.Filled.Done:Icons.Material.Filled.DoneOutline)"></MudIcon>
+                </MudItem>
+                <MudItem>
+                    <MudText Align="Align.Center">
+                        <strike>
+                            @if (item.done == true)
+                                @item.title
+                        </strike>
+                        @if (item.done == false)
+                            @item.title
+                    </MudText>
+                </MudItem>
+                <MudItem>
+                    <MudText Align="Align.Center">
+                        <strike>
+                            @if (item.done == true)
+                                @item.note
+                        </strike>
+                        @if (item.done == false)
+                            @item.note
+                    </MudText>
+                </MudItem>
+                <MudItem>
+                    <MudIcon Icon="@Icons.Material.Sharp.Star"></MudIcon>
+                </MudItem>
+            </MudGrid>
+        </li>
+    }
+</ul>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work\\GitHub\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj": {}
+    "D:\\work\\Maico\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj": {}
   },
   "projects": {
-    "D:\\work\\GitHub\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj": {
+    "D:\\work\\Maico\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work\\GitHub\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj",
+        "projectUniqueName": "D:\\work\\Maico\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj",
         "projectName": "Test_C_sharp_Co_Ban",
-        "projectPath": "D:\\work\\GitHub\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj",
+        "projectPath": "D:\\work\\Maico\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\work\\GitHub\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\obj\\",
+        "outputPath": "D:\\work\\Maico\\Source\\Test_C_sharp_Co_Ban\\Test_C_sharp_Co_Ban\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
