@@ -11,9 +11,19 @@ namespace _TestBlazor_.Pages
 {
     public class IndexBase: OwningComponentBase<ItemService>
     {
+
+
+        public Item NewItem = new Item();
+        [Parameter]
+        public EventCallback<Item> OnPosted { get; set; }
+        public async Task HandleSubmit()
+        {
+            Add();
+            await OnPosted.InvokeAsync(NewItem);
+            NewItem = new Item();
+        }
+
         protected System.Collections.Generic.IList<Item> it;
-        protected string currentTitle { get; set; }
-        protected string currentNote { get; set; }
         protected void Save()
         {
             Service.saveChange(it.ToList());
@@ -28,9 +38,9 @@ namespace _TestBlazor_.Pages
         }
         protected void Add()
         {
-            if (string.IsNullOrWhiteSpace(currentTitle) == false && string.IsNullOrWhiteSpace(currentNote) == false)
+            if (string.IsNullOrWhiteSpace(NewItem.title) == false && string.IsNullOrWhiteSpace(NewItem.note) == false)
             {
-                it.Add(new Item() { title = currentTitle, note = currentNote, done = false, important = false });
+                it.Add(new Item() { title = NewItem.title, note = NewItem.note, done = false, important = false });
             }
         }
         protected void AddIfEnter(KeyboardEventArgs eventArgs)

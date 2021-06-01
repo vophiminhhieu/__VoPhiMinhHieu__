@@ -6,10 +6,10 @@
 
 <br />
 <div class="input-group mb-3">
-    <input @bind="currentTitle" type="text" class="form-control" placeholder="Input Title" @onkeyup="AddIfEnter" />
-    <input @bind="currentNote" type="text" class="form-control" placeholder="Input Note" @onkeyup="AddIfEnter" />
+    <input @bind="NewItem.title" type="text" class="form-control" placeholder="Input Title" @onkeyup="AddIfEnter" />
+    <input @bind="NewItem.note" type="text" class="form-control" placeholder="Input Note" @onkeyup="AddIfEnter" />
     <div class="input-group-append">
-        <button @onclick="Add" class="btn btn-outline-success" type="button">Add</button>
+        <button @onclick="HandleSubmit" class="btn btn-outline-success" type="button" >Add</button>
     </div>
 </div>
 <br />
