@@ -6,42 +6,39 @@
 
 <br />
 <br />
-<ul class="list-group">
+
+<MudSimpleTable Style="overflow-x: auto;">
+<tbody>
     @foreach (var item in it)
     {
-        <br />
-        <li>
-            <MudGrid>
-                <MudItem>
-                    <MudAppBarSpacer></MudAppBarSpacer>
-                </MudItem>
-                <MudItem>
-                    <MudIcon Icon="@(item.done ? Icons.Material.Filled.Done:Icons.Material.Filled.DoneOutline)"></MudIcon>
-                </MudItem>
-                <MudItem>
-                    <MudText Align="Align.Center">
-                        <strike>
-                            @if (item.done == true)
-                                @item.title
-                        </strike>
-                        @if (item.done == false)
-                            @item.title
-                    </MudText>
-                </MudItem>
-                <MudItem>
-                    <MudText Align="Align.Center">
-                        <strike>
-                            @if (item.done == true)
-                                @item.note
-                        </strike>
-                        @if (item.done == false)
-                            @item.note
-                    </MudText>
-                </MudItem>
-                <MudItem>
-                    <MudIcon Icon="@Icons.Material.Sharp.Star"></MudIcon>
-                </MudItem>
-            </MudGrid>
-        </li>
+    <tr>
+        <td>
+            <MudIcon Icon="@(item.done ? Icons.Material.Filled.Done:Icons.Material.Filled.DoneOutline)"></MudIcon>
+        </td>
+        <td>
+            <MudText Align="Align.Center">
+                <strike>
+                    @if (item.done == true)
+                        @item.title
+                </strike>
+                @if (item.done == false)
+                    @item.title
+            </MudText>
+        </td>
+        <td>
+            <MudText Align="Align.Center">
+                <strike>
+                    @if (item.done == true)
+                        @item.note
+                </strike>
+                @if (item.done == false)
+                    @item.note
+            </MudText>
+        </td>
+        <td>
+            <MudIcon Icon="@Icons.Material.Sharp.Star"></MudIcon>
+        </td>
+    </tr>
     }
-</ul>
+</tbody>
+</MudSimpleTable>
